@@ -1,10 +1,13 @@
 # Clima
 An iOs App that shows weather of your current location and location entered by user.
 # Includes the use of the following:
-Programmatic Views
 
-Delegates
+Views created programmatically
 
-Models
+Use of Protocols and Delegates
 
-Cllocation 
+Use of Structs:  Models
+
+Use Cllocation library to get users location 
+
+Request User's location permission
