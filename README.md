@@ -1,13 +1,3 @@
 # Clima
-An iOs App that shows weather of your current location and location entered by user.
-# Includes the use of the following:
-
-Views created programmatically
-
-Use of Protocols and Delegates
-
-Use of Structs:  Models
-
-Use Cllocation library to get users location 
-
-Request User's location permission
+An iOs Application that shows your current location's weather and any other location entered by user.
+Uses Open weather current weather and forecast APIs.

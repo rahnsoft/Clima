@@ -6,16 +6,19 @@
 //
 
 import Foundation
-struct weatherAPi: Decodable {
-    var name : String?
+struct CurrentWeatherAPIModel: Decodable {
+    var name: String?
     var main: Main?
     var weather: [Weather?]
 }
+
 struct Main: Decodable {
-       var temp: Double
-   }
+    var temp: Double?
+    var temp_min: Double?
+    var temp_max: Double?
+}
+
 struct Weather: Decodable {
     var description: String?
     var id: Int?
 }
-

@@ -6,15 +6,17 @@
 //
 
 import Foundation
-struct weatherModel {
+struct WeatherModel {
     var conditionId: Int
     var temp: Double?
     var cityName: String?
     
+    ///  Round off the Temp fron Double to string using a floating point of 1 decimal place
     var tempString: String{
         return String(format: "%.1f", temp!)
     }
     
+    /// Get the image of the weather condition
     var conditionName: String{
         switch conditionId {
         case 200...232:
